@@ -1,0 +1,1851 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: August 21, 2024 --><html lang="fr-FR" dir="ltr"
+      data-wc-theme-default="light">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="吳健雄" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." />
+
+  
+  <link rel="alternate" hreflang="fr-FR" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/indigo.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Creator&#39;s Landing Page | Hugo Theme" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
+
+  <link rel="canonical" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Creator&#39;s Landing Page | Hugo Theme" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:title" content="Home | Creator&#39;s Landing Page | Hugo Theme" />
+  <meta property="og:description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." /><meta property="og:image" content="http://localhost:1313/media/logo.svg" />
+    <meta property="twitter:image" content="http://localhost:1313/media/logo.svg" /><meta property="og:locale" content="fr-FR" />
+  
+    
+      <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "http://localhost:1313/"
+}
+</script>
+
+
+  
+
+
+  <title>Home | Creator&#39;s Landing Page | Hugo Theme</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Creator&#39;s Landing Page | Hugo Theme">
+            
+            
+              
+              <img
+                fetchpriority="high"
+                decoding="async"
+                class=""
+                width="35"
+                height="36"
+                src="/media/logo_hu11250318604283090619.webp"
+                alt="Creator&#39;s Landing Page | Hugo Theme" />
+            
+          
+        
+        
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#top"
+        >Accueil</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#creneaux"
+        >Créneaux</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#evenement"
+        >Evenements à venir</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#galerie"
+        >Galerie</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/blog/inscription-2024-2025"
+        >Inscription</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#contact"
+        >Contact</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+    
+    
+  
+  
+  
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-hero" class="relative hbb-section blox-hero  dark" style="padding: 0 0 0 0;" >
+ <div class="home-section-bg  bg-image parallax" style="background-color: navy;background-image: url(&#39;http://localhost:1313/media/bad_hu9418890916131315836.webp&#39;);filter: brightness(0.5);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+<div class="relative isolate px-6 pt-14 lg:px-8">
+
+  <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+    
+
+    <div class="text-center">
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">Ecouflant Club Badminton</h1>
+      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">Rejoignez le club !</p>
+
+      
+
+        
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-stats" class="relative hbb-section blox-stats  bg-gray-100 dark:bg-gray-900" style="padding: 1rem 0 1rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+
+  
+
+  <div class="grid grid-cols-3 row-gap-8">
+    
+    <div class="text-center md:border-r">
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">1998</h6>
+      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Date de création du club</p>
+    </div>
+    
+    <div class="text-center md:border-r">
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">365</h6>
+      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Licencié(e)s<br>
+depuis 1998</p>
+    </div>
+    
+    <div class="text-center ">
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">50%</h6>
+      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">50% de femmes</p>
+    </div>
+    
+  </div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="creneaux" class="relative hbb-section blox-features  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 flex flex-col justify-center mx-auto">
+      
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Créneaux</h2>
+      
+      
+    </div>
+    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      
+        <div>
+          
+          <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+            <svg class="w-5 h-5 lg:w-6 lg:h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/></svg>
+          </div>
+          
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Mardi</h3>
+          <p class="text-gray-500 dark:text-gray-400">mardi de 19h30 à 22h30</p>
+        </div>
+      
+        <div>
+          
+          <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+            <svg class="w-5 h-5 lg:w-6 lg:h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/></svg>
+          </div>
+          
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Samedi</h3>
+          <p class="text-gray-500 dark:text-gray-400">samedi du 10h00 à 12h45.</p>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="evenement" class="relative hbb-section blox-simpletext  bg-gray-100 dark:bg-gray-900" style="padding: 1rem 0 1rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 flex flex-col justify-center mx-auto">
+      
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Evènements à venir</h2>
+      
+      
+    </div>
+    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      
+        <div>
+          
+          <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+            <svg class="w-5 h-5 lg:w-6 lg:h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/></svg>
+          </div>
+          
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Mardi</h3>
+          <p class="text-gray-500 dark:text-gray-400">mardi de 19h30 à 22h30</p>
+        </div>
+
+
+        <li>
+                Mardi
+              </li>
+              
+
+      
+        <div>
+          
+          <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+            <svg class="w-5 h-5 lg:w-6 lg:h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/></svg>
+          </div>
+          
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Samedi</h3>
+          <p class="text-gray-500 dark:text-gray-400">samedi du 10h00 à 12h45.</p>
+        </div>
+
+
+        <li>
+                Samedi
+              </li>
+              
+
+      
+    </div>    
+  </div>
+</section>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="gallery" class="relative hbb-section blox-gallery  bg-gray-100 dark:bg-gray-900" style="padding: 1rem 0 1rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 flex flex-col justify-center mx-auto">
+      
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Gallerie</h2>
+      
+      
+    </div>  
+    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d4396c9e.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d446521a.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d457972c.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e628daa1.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e634f5a3.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e62d88fb.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e6307c8c.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e637a57d.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e61730bf.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e632d887.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e632d05b.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e634f5d4.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e62b0275.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0abbfbf.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a7a453.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f09ee2e6.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f094cc1f.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a88ef5.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b24ae2.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a4e62a.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b5435d.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b1187e.jpg" alt="">
+        </div>
+      
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b188f5.jpg" alt="">
+        </div>
+      
+    </div>      
+TEST
+<div class="gallery-category row " data-module-id="" data-tool-title="Galerie" data-page-url="galerie" data-filter="album" data-limit="50" data-tool-style="5" data-unique-id="64ff4ce68d9cc" data-language="">
+<ul class="gallery-images-container in-row-4 mobile-in-row-1" data-row-number="in-row-4 mobile-in-row-1">
+  <li class="gallery-image g-i"><div class="thumbnail box-primary"><div class="gallery-image-box mfp-image" data-mfp-src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg" title="" data-type="image" data-media-type="upload" data-image-page-url="/galerie/item-id-64ff4d46ebcaa" data-image-description="" data-image-link="" data-image-link-text="" data-original-width="900" data-original-height="1600" data-img-resize="true"><a href="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg" class="gallery-image-link bgLazyload entered loaded" data-bg="https://images.cdn-files-a.com/uploads/8485186/800_64ff4d464bf4b.jpg?width=600" data-allow-external-link="true" title="" style="background-position: center center; background-image: url(&quot;https://images.cdn-files-a.com/uploads/8485186/800_64ff4d464bf4b.jpg?width=600&quot;);" data-img-resize="true" data-ll-status="loaded"></a></div></div></li>
+</ul>  
+</div>
+    FIN TEST
+  </div>
+</section>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="inscription" class="relative hbb-section blox-features  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 flex flex-col justify-center mx-auto">
+      
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Inscription</h2>
+      
+      
+      <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center">Formulaire d&rsquo;inscription saison 2023-2024</p>
+      
+    </div>
+    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      
+    </div>
+  </div>
+</section>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="solutions" class="relative hbb-section blox-cta-image-paragraph  bg-gray-100 dark:bg-gray-900" style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+<div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <img class="w-full" src="/media/build-website_hu9560712049938221313.webp" alt="Build your future-proof website" style="order: 1">
+    <div class="mt-4 md:mt-0">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Build your future-proof website</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">As easy as 1, 2, 3!</p>
+      
+      
+      <ul>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
+          Future-proof - edit your content in text files
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
+          Website is generated by a single app, Hugo
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
+          No JavaScript knowledge required
+        </li>
+        
+      </ul>
+      
+      
+      <a href="https://hugoblox.com/templates/" class="mt-3 inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+        Get Started
+        <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <img class="w-full" src="/media/coffee_hu11377651439601294975.webp" alt="Large Community" >
+    <div class="mt-4 md:mt-0">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Large Community</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Join our large community on Discord - ask questions and get live responses</p>
+      
+      
+      <ul>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          Dedicated support channel
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          3,000+ users on Discord
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          Share your site and get feedback
+        </li>
+        
+      </ul>
+      
+      
+      <a href="https://discord.gg/z8wNYzb" class="mt-3 inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+        Join Discord
+        <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+<p class="text-center">
+  
+  <a href="/privacy/">Privacy</a>
+  
+  
+   &middot; 
+  <a href="/terms/">Terms of Service</a>
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by text-center">
+    © 2024 My Company
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

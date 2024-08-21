@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      title: Ecouflant Club Badminton
+      text: Rejoignez le club !
+      # primary_action:
+      #   text: Get Started
+      #   url: https://hugoblox.com/templates/
+      #   icon: rocket-launch
+      # secondary_action:
+      #   text: Read the docs
+      #   url: https://docs.hugoblox.com
+      # announcement:
+      #   text: "Inscriptions bientôt"
+      #   link:
+      #     text: "(cliquez ici)"
+      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -34,24 +34,23 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          #filename: bg-triangles.svg
+          filename: bad.png
           filters:
             brightness: 0.5
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "1998"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Date de création du club
+        - statistic: "365"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Licencié(e)s  
+            depuis 1998
+        - statistic: "50%"
           description: |
-            Discord community  
-            for support
+            50% de femmes        
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -59,29 +58,76 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: features
+    id: creneaux
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Créneaux
+      #text: Build your site with blocks 🧱
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+        - name: Mardi
+          icon: clock
+          description: mardi de 19h30 à 22h30
+        - name: Samedi
+          icon: clock
+          description: samedi du 10h00 à 12h45.
+  - block: simpletext
+    id: evenement
+    content:
+      title: Evènements à venir
+      #text: Build your site with blocks 🧱
+      items:
+        - name: Mardi
+          icon: clock
+          description: mardi de 19h30 à 22h30
+        - name: Samedi
+          icon: clock
+          description: samedi du 10h00 à 12h45.
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
+  - block: gallery
+    id: gallery
+    content:
+      title: Gallerie
+      #text: Build your site with blocks 🧱
+      images:
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d4396c9e.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d446521a.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d457972c.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e628daa1.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e634f5a3.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e62d88fb.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e6307c8c.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e637a57d.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e61730bf.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e632d887.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e632d05b.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e634f5d4.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4e62b0275.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0abbfbf.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a7a453.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f09ee2e6.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f094cc1f.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a88ef5.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b24ae2.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0a4e62a.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b5435d.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b1187e.jpg
+        - src: https://images.cdn-files-a.com/uploads/8485186/2000_64ff4f0b188f5.jpg
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
+  - block: features
+    id: inscription
+    content:
+      title: Inscription
+      text: Formulaire d'inscription saison 2023-2024
   - block: cta-image-paragraph
     id: solutions
     content:
@@ -113,30 +159,30 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+  # - block: testimonials
+  #   content:
+  #     title: ""
+  #     text: ""
+  #     items:
+  #       - name: "Hugo Smith"
+  #         role: "Marketing Executive at X"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "testimonial-1.jpg"
+  #         text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+  #   design:
+  #     spacing:
+  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
+  #       padding: ["6rem", 0, 0, 0]
+  # - block: cta-card
+  #   content:
+  #     title: Build your future-proof website
+  #     text: As easy as 1, 2, 3!
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---

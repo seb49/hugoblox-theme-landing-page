@@ -1,0 +1,36 @@
+{{/* Hugo Blox: Gallery */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+
+<section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-16 flex flex-col justify-center mx-auto">
+      {{ with $title }}
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
+      {{ end }}
+      {{ with $text }}
+      <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center">{{.}}</p>
+      {{ end }}
+    </div>  
+    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      {{ range $block.content.images }}
+        <div class="thumbnail box-primary">                          
+          <img class="h-auto max-w-full rounded-lg" src="{{ .src }}" alt="">
+        </div>
+      {{ end }}
+    </div>      
+TEST
+<div class="gallery-category row " data-module-id="" data-tool-title="Galerie" data-page-url="galerie" data-filter="album" data-limit="50" data-tool-style="5" data-unique-id="64ff4ce68d9cc" data-language="">
+<ul class="gallery-images-container in-row-4 mobile-in-row-1" data-row-number="in-row-4 mobile-in-row-1">
+  <li class="gallery-image g-i"><div class="thumbnail box-primary"><div class="gallery-image-box mfp-image" data-mfp-src="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg" title="" data-type="image" data-media-type="upload" data-image-page-url="/galerie/item-id-64ff4d46ebcaa" data-image-description="" data-image-link="" data-image-link-text="" data-original-width="900" data-original-height="1600" data-img-resize="true"><a href="https://images.cdn-files-a.com/uploads/8485186/2000_64ff4d464bf4b.jpg" class="gallery-image-link bgLazyload entered loaded" data-bg="https://images.cdn-files-a.com/uploads/8485186/800_64ff4d464bf4b.jpg?width=600" data-allow-external-link="true" title="" style="background-position: center center; background-image: url(&quot;https://images.cdn-files-a.com/uploads/8485186/800_64ff4d464bf4b.jpg?width=600&quot;);" data-img-resize="true" data-ll-status="loaded"></a></div></div></li>
+</ul>  
+</div>
+    FIN TEST
+  </div>
+</section>
